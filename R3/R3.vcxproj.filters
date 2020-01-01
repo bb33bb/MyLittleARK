@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CDlgProc">
+      <UniqueIdentifier>{47c70c5e-62bf-4f3d-941f-be988128ac79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDlgDriver">
+      <UniqueIdentifier>{7e44705a-686e-4fc8-8022-534b5263939c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDlgIDT">
+      <UniqueIdentifier>{31b7faf5-d199-48dc-8aed-d180ba6be935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDlgListBase">
+      <UniqueIdentifier>{fbabfc75-8bb3-4d71-89d5-8c36e9f80677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDlgGDT">
+      <UniqueIdentifier>{4dad89d2-1e94-44b9-8b3a-83c7ad23c289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDlgSSDT">
+      <UniqueIdentifier>{6baf65d5-44eb-4128-a0dc-dfc28526dcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDlgFile">
+      <UniqueIdentifier>{45f636bf-83b5-44ca-be5f-90aa8308580c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="R3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="R3Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgListBase.h">
+      <Filter>CDlgListBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgDriver.h">
+      <Filter>CDlgDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgMod.h">
+      <Filter>CDlgProc</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgProc.h">
+      <Filter>CDlgProc</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgThread.h">
+      <Filter>CDlgProc</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgIDT.h">
+      <Filter>CDlgIDT</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgGDT.h">
+      <Filter>CDlgGDT</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgSSDT.h">
+      <Filter>CDlgSSDT</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgFile.h">
+      <Filter>CDlgFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="R3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="R3Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgListBase.cpp">
+      <Filter>CDlgListBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgDriver.cpp">
+      <Filter>CDlgDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgThread.cpp">
+      <Filter>CDlgProc</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgMod.cpp">
+      <Filter>CDlgProc</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgProc.cpp">
+      <Filter>CDlgProc</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgIDT.cpp">
+      <Filter>CDlgIDT</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgGDT.cpp">
+      <Filter>CDlgGDT</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgSSDT.cpp">
+      <Filter>CDlgSSDT</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgFile.cpp">
+      <Filter>CDlgFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="R3.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\R3.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\R3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

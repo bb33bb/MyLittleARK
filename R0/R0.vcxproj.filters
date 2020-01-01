@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="BasicModule">
+      <UniqueIdentifier>{f10e3091-702b-4e19-a85c-1568796b9284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KernelReload">
+      <UniqueIdentifier>{6c96576a-59b5-4d83-8602-842e16dca7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinStruct">
+      <UniqueIdentifier>{538f9f53-f890-4afd-81af-6463792e880e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="R0.inf">
+      <Filter>Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicModule.c">
+      <Filter>BasicModule</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelFunction.c">
+      <Filter>KernelReload</Filter>
+    </ClCompile>
+    <ClCompile Include="kernelReload.c">
+      <Filter>KernelReload</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicModule.h">
+      <Filter>BasicModule</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelFunction.h">
+      <Filter>KernelReload</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelReload.h">
+      <Filter>KernelReload</Filter>
+    </ClInclude>
+    <ClInclude Include="WinStruct.h">
+      <Filter>WinStruct</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
